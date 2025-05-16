@@ -1,0 +1,14 @@
+.main-app {
+    display: flex;
+    min-height: 100vh;
+}
+
+.app-routes {
+    flex: 1;
+    padding: 20px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}

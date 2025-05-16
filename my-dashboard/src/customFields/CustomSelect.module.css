@@ -1,0 +1,27 @@
+.selectWrapper {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+}
+
+.select {
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.errorBorder {
+    border-color: red;
+}
+
+.errorText {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+}

@@ -1,0 +1,57 @@
+.sidebar {
+    width: 220px;
+    background-color: #000000;
+    /* Dark blue-gray */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 10px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    /* Aligns the icon and text vertically */
+}
+
+.linkIcon {
+    margin-right: 10px;
+    /* Adds 1px space to the right of the icon */
+}
+
+.activeLink {
+    background-color: #374151;
+    /* Slightly lighter gray when active */
+}
+
+.userToggle {
+    margin-top: auto;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+}

@@ -1,0 +1,30 @@
+.containerWrapper {
+    padding: 2rem;
+}
+
+.formContainer {
+    border-radius: 8px;
+    padding: 2rem;
+    color: #000000;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    /* Add this line */
+}
+
+.formGroup {
+    margin-bottom: 1.5rem;
+}
+
+.formControl {
+    background-color: #111;
+    color: #000000;
+    padding: 0.5rem;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.submitWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}

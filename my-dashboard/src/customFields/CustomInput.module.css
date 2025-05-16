@@ -1,0 +1,49 @@
+.label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-weight: bold;
+}
+
+.required {
+    color: red;
+    margin-bottom: 22px;
+}
+
+.inputWrapper {
+    position: relative;
+}
+
+.input {
+    width: 100%;
+    padding: 0.5rem;
+    padding-right: 2rem;
+    border: 1px solid #ccc;
+    /* background: rgb(107, 107, 107); */
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+
+}
+
+.input:focus {
+    outline: none;
+    border-color: #666;
+}
+
+.error .input {
+    border-color: red;
+}
+
+.icon {
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: red;
+    font-weight: bold;
+}
+
+.errorText {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
