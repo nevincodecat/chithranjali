@@ -1,0 +1,27 @@
+# Stage 1 - Install dependencies & build
+FROM node:20-alpine AS builder
+
+WORKDIR /app
+
+COPY package.json yarn.lock ./
+RUN yarn install --frozen-lockfile
+
+COPY . .
+
+# Optional: copy only if needed
+COPY .env .env
+
+RUN yarn build
+
+# Stage 2 - Production image
+FROM node:20-alpine
+
+WORKDIR /app
+
+COPY --from=builder /app ./
+
+RUN yarn install --production --frozen-lockfile
+
+EXPOSE 1337
+
+CMD ["yarn", "start"]

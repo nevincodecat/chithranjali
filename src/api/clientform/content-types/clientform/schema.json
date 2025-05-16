@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clientforms",
+  "info": {
+    "singularName": "clientform",
+    "pluralName": "clientforms",
+    "displayName": "clientform",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "age": {
+      "type": "integer"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "address": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}

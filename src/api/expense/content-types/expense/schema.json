@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "expenses",
+  "info": {
+    "singularName": "expense",
+    "pluralName": "expenses",
+    "displayName": "Expense",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "biginteger"
+    },
+    "date": {
+      "type": "date"
+    },
+    "note": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "biginteger"
+    }
+  }
+}
